@@ -39,5 +39,24 @@ a:hover {
   list-style: none;
   margin: 0;
   padding: 0; 
+  display: flex; 
+}
+.slider-nav li {
+  flex: 2;
+  text-align:center;
+  display: flex; 
+}
+.slider-nav a {
+  flex-basis: 100%;
+  display: flex;
+  align-items: center;
 }
 
+.slider-nav li.arrow {
+  flex: 1;
+}
+.slider-nav a span { flex: 1; display:block; width: 100%;
+}
+.slider-nav li.arrow a {
+  font-size: 2rem;
+ }
